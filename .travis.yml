@@ -12,7 +12,7 @@ jdk:
 #services:
 #  - hbase
 before_install:
-    - wget http://mirror.bit.edu.cn/apache/hbase/stable/hbase-1.2.6-bin.tar.gz
+    - wget https://mirrors.tuna.tsinghua.edu.cn/apache/hbase/stable/hbase-1.2.6-bin.tar.gz
     - sudo tar -xzvf hbase-1.2.6-bin.tar.gz
     - sudo cd hbase-1.2.6/
     - sudo sh bin/start-hbase.sh
